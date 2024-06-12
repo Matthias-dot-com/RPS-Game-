@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin: 20px;
+    font-size: 3em;
+    color: #f39c12;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .score-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  .se-container , .btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #f39c12;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e67e22;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    background-color: #d35400;
+    transform: translateY(0);
+  }
+  
+  button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .score-container p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  #Status {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .se-container button {
+    background-color: #27ae60;
+  }
+  
+  .se-container button:hover {
+    background-color: #2ecc71;
+  }
+  
+  .se-container button:active {
+    background-color: #16a085;
+  }
+  
+  div {
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  

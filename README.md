@@ -1,34 +1,46 @@
 # Rock Paper Scissors Game
 
-This is a basic JavaScript implementation of the classic Rock Paper Scissors game. It allows the user to play against the computer for a specified number of rounds.
+Welcome to the Rock Paper Scissors Game! This project was initially a console-based game and has now been upgraded with a user interface.
+
+## Game Description
+
+This is a simple Rock Paper Scissors game where you play against the computer. The first to score 5 points wins the game.
+
+## Features
+
+- Interactive UI with buttons for Rock, Paper, and Scissors.
+- Start button to reset the game.
+- End button to stop the game.
+- Score display and game status updates.
+- Responsive and visually appealing design.
 
 ## How to Play
 
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Follow the on-screen instructions to input the number of games you want to play and make your choices.
+2. Open the `index.html` file in your browser.
+3. Click on the "Rock", "Paper", or "Scissors" button to make your choice.
+4. The computer will randomly select its choice.
+5. The score and status of the game will be displayed.
+6. The first to score 5 points wins the game.
+7. Click "Start" to reset the game or "End" to stop the game.
 
-## Game Rules
+## Installation
 
-- Rock beats Scissors
-- Scissors beats Paper
-- Paper beats Rock
+To run this project locally, follow these steps:
 
-## Files
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Mat-dot-com/rps.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd rps
+    ```
+3. Open the `index.html` file in your web browser.
 
-- `index.html`: HTML file containing the game interface.
-- `script.js`: JavaScript file containing the game logic.
 
-## Features
+## Contributing
 
-- User input for the number of games to play.
-- Random computer selection for each round.
-- Score tracking for both the player and the computer.
+If you have suggestions for improvements, feel free to submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## Dependencies
 
-This project has no external dependencies.
-
-## Author
-
-Matthias W.Beshah
